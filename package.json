@@ -1,13 +1,15 @@
 {
-  "private": true,
   "name": "lucid-creations-website",
   "homepage": "https://new.lucidcreations.media/",
-  "version": "0.1.1",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This is a personal website that I have no specific goals for other than to have fun and share things that I want to.",
   "author": {
     "name": "Lucid Creations Media",
     "url": "https://lucidcreations.media",
     "email": "social@lucidcreations.media"
   },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,39 +18,32 @@
     "pretty": "prettier --write ."
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.8.2",
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.0",
-    "@fontsource/anonymous-pro": "^5.0.12",
-    "@fontsource/anybody": "^5.0.19",
-    "@fontsource/kalam": "^5.0.12",
-    "@fontsource/montserrat": "^5.0.17",
-    "@fontsource/tilt-neon": "^5.0.4",
-    "@iconify/react": "^4.1.1",
-    "@reduxjs/toolkit": "^2.2.2",
-    "date-fns": "^3.6.0",
-    "formik": "^2.4.5",
-    "framer-motion": "^11.0.20",
-    "next": "14.1.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^9.1.0",
-    "sharp": "^0.33.3"
+    "@chakra-ui/react": "^3.21.0",
+    "@emotion/react": "^11.14.0",
+    "next": "15.3.4",
+    "next-themes": "^0.4.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.30",
-    "@types/react": "^18.2.70",
-    "@types/react-redux": "^7.1.33",
-    "@typescript-eslint/eslint-plugin": "^7.4.0",
-    "@typescript-eslint/parser": "^7.4.0",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "<13.4.9",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.3"
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.29.0",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@typescript-eslint/eslint-plugin": "^8.34.1",
+    "@typescript-eslint/parser": "^8.34.1",
+    "eslint": "^9.29.0",
+    "eslint-config-next": "15.3.4",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.34.1"
   },
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.9.2"
 }
