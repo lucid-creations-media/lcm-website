@@ -39,10 +39,10 @@ jobs:
         run: corepack enable
 
       - name: Enable Corepack
-        run: corepack prepare yarn@4.x --activate
+        run: corepack prepare yarn@4.9.2 --activate
 
       # YARN
-      - uses: borales/actions-yarn@v4.x
+      - uses: borales/actions-yarn@4.9.2
         with:
           cmd: install # will run `yarn install` command
       #- uses: borales/actions-yarn@v3.0.0
@@ -51,12 +51,12 @@ jobs:
       #- uses: borales/actions-yarn@v3.0.0
       #  with:
       #    cmd: type-check # will run `yarn type-check` command
-      - uses: borales/actions-yarn@v4.x
+      - uses: borales/actions-yarn@4.9.2
         with:
           cmd: lint # will run `yarn lint` command
-      - uses: borales/actions-yarn@v4.x
+      - uses: borales/actions-yarn@4.9.2
         with:
           cmd: build # will run `yarn build` command
-      - uses: borales/actions-yarn@v4.x
+      - uses: borales/actions-yarn@4.9.2
         with:
           cmd: build # will run `yarn start` command
