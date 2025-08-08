@@ -1,5 +1,6 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable @typescript-eslint/no-empty-object-type */
+/* eslint-disable prettier/prettier */
+/* eslint-disable no-unused-vars */
 "use client";
 
 import type { IconButtonProps, SpanProps } from "@chakra-ui/react";
