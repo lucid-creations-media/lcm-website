@@ -41,6 +41,9 @@ jobs:
       # YARN
       - uses: borales/actions-yarn@v3.0.0
         with:
+          cmd: set version stable # will run `yarn set version stable` command
+      - uses: borales/actions-yarn@v3.0.0
+        with:
           cmd: install # will run `yarn install` command
       #- uses: borales/actions-yarn@v3.0.0
       #  with:
