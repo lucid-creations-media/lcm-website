@@ -68,7 +68,13 @@ export default function Home() {
       </VStack>
 
       <VStack spaceY={6} w="80vw">
-        <Heading as="h2" color="cyan" fontSize="2.5rem">
+        <Heading
+          as="h2"
+          color="cyan"
+          fontSize="2.5rem"
+          textAlign="center"
+          lineHeight="1"
+        >
           {"Other LCM Resources"}
         </Heading>
 
@@ -92,7 +98,13 @@ export default function Home() {
             </Link>
           </Button>
         </HStack>
-        <Heading as="h2" color="cyan" fontSize="2.5rem">
+        <Heading
+          as="h3"
+          color="cyan"
+          fontSize="2.5rem"
+          textAlign="center"
+          lineHeight="1"
+        >
           {"Lucid's Socials"}
         </Heading>
 
