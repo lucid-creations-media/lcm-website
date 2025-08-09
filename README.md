@@ -1,7 +1,8 @@
 <p align="center">
-  <a href="https://github.com/lucid-creation-media/lcm-website/actions/workflows/main.yml"><img alt="CI Status Badge" src="https://github.com/lucid-creation-media/lcm-website/actions/workflows/main.yml/badge.svg?branch=main" /></a>
-  <a href="https://github.com/lucid-creation-media/lcm-website/actions/workflows/codeql-analysis.yml"><img alt="CodeQL Analysis" src="https://github.com/lucid-creation-media/lcm-website/actions/workflows/codeql-analysis.yml/badge.svg?branch=main" /></a>
-  <a href="https://github.com/lucid-creation-media/lcm-website/actions/workflows/njsscan-analysis.yml"><img alt="CodeQL Analysis" src="https://github.com/lucid-creation-media/lcm-website/actions/workflows/njsscan-analysis.yml/badge.svg?branch=main" /></a>
+  <a href="https://github.com/lucid-creations-media/lcm-website/actions/workflows/main.yml"><img alt="CI Status Badge" src="https://github.com/lucid-creations-media/lcm-website/actions/workflows/main.yml/badge.svg?branch=main" /></a>
+  <a href="https://github.com/lucid-creations-media/lcm-website/actions/workflows/codeql-analysis.yml"><img alt="CodeQL Analysis" src="https://github.com/lucid-creations-media/lcm-website/actions/workflows/codeql-analysis.yml/badge.svg?branch=main" /></a>
+  <a href="https://github.com/lucid-creations-media/lcm-website/actions/workflows/njsscan-analysis.yml"><img alt="CodeQL Analysis" src="https://github.com/lucid-creations-media/lcm-website/actions/workflows/njsscan-analysis.yml/badge.svg" /></a>
+  <a href="https://github.com/lucid-creations-media/lcm-website/actions/workflows/dependabot/dependabot-updates"><img alt="CodeQL Analysis" src="https://github.com/lucid-creations-media/lcm-website/actions/workflows/dependabot/dependabot-updates/badge.svg?branch=main" /></a>
 </p>
 
 # [Lucid Creations Media Website](https://new.lucidcreations.media/)
