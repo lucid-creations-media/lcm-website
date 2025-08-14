@@ -32,17 +32,17 @@ export default function Home() {
         </Text>
         <Text w="100%" textAlign="left" fontSize="lg">
           {
-            "Over the years there have been many external factors that interfered with my ability to dedicate time and find motivation to work on my creative passions. This includes erotica, streaming, hypno files, and more."
-          }
-        </Text>
-        <Text w="100%" textAlign="left" fontSize="lg">
-          {
-            "It has also interfered with my ability to learn new skills such as music creation and digital art."
+            "Over the years there have been many external factors that interfered with my ability to dedicate time and find motivation to work on my creative passions. This includes erotica, streaming, hypno files, and more. It has also interfered with my ability to learn new skills such as music creation and digital art."
           }
         </Text>
         <Text w="100%" textAlign="left" fontSize="lg">
           {
             "Last year I faced a layoff and haven't been able to get back into my field. I can no longer afford the costs of hosting this website on it's current platform. The website generated no sales and thus I had to make the difficult decision to shut the site down for now."
+          }
+        </Text>
+        <Text w="100%" textAlign="left" fontSize="lg">
+          {
+            "Another contributing factor is the fear of losing access to another payment processor. LCM was banned from Square and they gave no reason. It's probably because of \"adult material\". On top of that, especially with it getting in the spotlight again, my state is starting it's own ID check law for adult websites. I cannot catch a break. I have no way to do that since I already struggle to pay for hosting so it's probably a good time to just take a break from this endeavour for now."
           }
         </Text>
         <Text w="100%" textAlign="left" fontSize="lg">
@@ -68,6 +68,7 @@ export default function Home() {
       </VStack>
 
       <VStack spaceY={6} w="80vw">
+
         <Heading
           as="h2"
           color="cyan"
@@ -75,10 +76,32 @@ export default function Home() {
           textAlign="center"
           lineHeight="1"
         >
-          {"Other LCM Resources"}
+          {"Other Platforms (Shops)"}
         </Heading>
 
-        <HStack gap="6" wrap="wrap">
+        <HStack gap="6" wrap="wrap" justifyContent="center">
+          <Button variant="solid" bgColor="teal" fontSize="xl">
+            <Link
+              target="_blank"
+              color="whiteAlpha.950"
+              href="https://gumroad.social.koboldkid.com/"
+            >
+              {"Gumroad"}
+            </Link>
+          </Button>
+        </HStack>
+
+        <Heading
+          as="h2"
+          color="cyan"
+          fontSize="2.5rem"
+          textAlign="center"
+          lineHeight="1"
+        >
+          {"The Cove (LCM Communities)"}
+        </Heading>
+
+        <HStack gap="6" wrap="wrap" justifyContent="center">
           <Button variant="solid" bgColor="teal" fontSize="xl">
             <Link
               target="_blank"
@@ -97,7 +120,17 @@ export default function Home() {
               {"Dreamy Drove"}
             </Link>
           </Button>
+          <Button variant="solid" bgColor="teal" fontSize="xl">
+            <Link
+              target="_blank"
+              color="whiteAlpha.950"
+              href="http://discord.social.koboldkid.com/"
+            >
+              {"Discord Server"}
+            </Link>
+          </Button>
         </HStack>
+
         <Heading
           as="h3"
           color="cyan"
@@ -108,7 +141,7 @@ export default function Home() {
           {"Lucid's Socials"}
         </Heading>
 
-        <HStack gap="6" wrap="wrap">
+        <HStack gap="6" wrap="wrap" justifyContent="center">
           <Button variant="solid" bgColor="teal" fontSize="xl">
             <Link
               target="_blank"
@@ -116,6 +149,55 @@ export default function Home() {
               href="https://koboldkid.com/"
             >
               {"Kobold Kid Website"}
+            </Link>
+          </Button>
+          <Button variant="solid" bgColor="teal" fontSize="xl">
+            <Link
+              target="_blank"
+              color="whiteAlpha.950"
+              href="https://bsky.social.koboldkid.com/"
+            >
+              {"Bsky"}
+            </Link>
+          </Button>
+        </HStack>
+
+        <Heading
+          as="h3"
+          color="cyan"
+          fontSize="2.5rem"
+          textAlign="center"
+          lineHeight="1"
+        >
+          {"VTubing"}
+        </Heading>
+
+        <HStack gap="6" wrap="wrap" justifyContent="center">
+          <Button variant="solid" bgColor="teal" fontSize="xl">
+            <Link
+              target="_blank"
+              color="whiteAlpha.950"
+              href="http://yt-vods.social.koboldkid.com/"
+            >
+              {"YouTube VODs"}
+            </Link>
+          </Button>
+          <Button variant="solid" bgColor="teal" fontSize="xl">
+            <Link
+              target="_blank"
+              color="whiteAlpha.950"
+              href="https://koboldkid.com/"
+            >
+              {"YouTube Archives"}
+            </Link>
+          </Button>
+          <Button variant="solid" bgColor="teal" fontSize="xl">
+            <Link
+              target="_blank"
+              color="whiteAlpha.950"
+              href="http://yt-archives.social.koboldkid.com/"
+            >
+              {"Twitch"}
             </Link>
           </Button>
         </HStack>
