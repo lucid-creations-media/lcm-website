@@ -68,7 +68,6 @@ export default function Home() {
       </VStack>
 
       <VStack spaceY={6} w="80vw">
-
         <Heading
           as="h2"
           color="cyan"
