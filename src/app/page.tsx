@@ -83,7 +83,7 @@ export default function Home() {
             <Link
               target="_blank"
               color="whiteAlpha.950"
-              href="https://gumroad.social.koboldkid.com/"
+              href="http://gumroad.social.koboldkid.com/"
             >
               {"Gumroad"}
             </Link>
@@ -154,7 +154,7 @@ export default function Home() {
             <Link
               target="_blank"
               color="whiteAlpha.950"
-              href="https://bsky.social.koboldkid.com/"
+              href="http://bsky.social.koboldkid.com/"
             >
               {"Bsky"}
             </Link>
@@ -185,7 +185,7 @@ export default function Home() {
             <Link
               target="_blank"
               color="whiteAlpha.950"
-              href="https://koboldkid.com/"
+              href="http://yt-archives.social.koboldkid.com/"
             >
               {"YouTube Archives"}
             </Link>
@@ -194,7 +194,7 @@ export default function Home() {
             <Link
               target="_blank"
               color="whiteAlpha.950"
-              href="http://yt-archives.social.koboldkid.com/"
+              href="http://twitch.social.koboldkid.com/"
             >
               {"Twitch"}
             </Link>
