@@ -69,7 +69,7 @@ export default function Home() {
 
       <VStack spaceY={6} w="80vw">
         <Heading
-          as="h2"
+          as="h3"
           color="cyan"
           fontSize="2.5rem"
           textAlign="center"
@@ -131,7 +131,7 @@ export default function Home() {
         </HStack>
 
         <Heading
-          as="h3"
+          as="h4"
           color="cyan"
           fontSize="2.5rem"
           textAlign="center"
@@ -162,7 +162,7 @@ export default function Home() {
         </HStack>
 
         <Heading
-          as="h3"
+          as="h5"
           color="cyan"
           fontSize="2.5rem"
           textAlign="center"
